@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 16.5rem  (rem is a unit of me);
+    font-size: 16.5rem;
     color: whitesmoke;
 }
 
@@ -22,10 +22,10 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
-header, main, footer {
+header, nav, main, footer {
     margin: 1.25rem auto;
     padding: .75rem;
-    max-width: 700px;
+    max-width: 960px;
 }
 
 header, footer, footer a {
