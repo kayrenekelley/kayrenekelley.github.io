@@ -4,19 +4,27 @@
 
 body {
   font-size: 16px;
+  line-height: normal;
+  font-family: calibri, sans-serif;
+  color: black;
   /* Declare the base font-family - from google font api or other */
 }
 
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    padding: .75rem;
+    max-width: 960px;/* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
   header {}
     header h1 {}
     header img {
-        image-resolution: from-image275px;
+      width: 200;
+      height: auto;
+      float: none;
     }
-    header .subheading {}
+  header .subheading {}
 
   nav {}
     nav button {}
