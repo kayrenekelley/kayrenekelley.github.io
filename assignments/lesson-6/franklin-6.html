@@ -8,16 +8,21 @@
     <meta name="author" content="Kayrene Kelley">
     <meta name="description" content="Mu Tri-Cities weather. Complete up to date weather and articles for Franklin, Greenville, and Springfield. Best storm center in the state of MU. Includes a photo and article gallery">
     <!-- external style references in the proper cascading order -->
+
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> -->
     <!-- Google API font reference -->
+
     <link href="styles/normalize.css" rel="stylesheet">
     <!-- normalize useragent/browser defaults -->
-    <link href="styles/main-5.css" rel="stylesheet">
+
+    <link href="styles/main-6.css" rel="stylesheet">
     <!-- default styles - small/phone views -->
-    <link href="styles/medium-5.css" rel="stylesheet">
+
+    <link href="styles/medium-6.css" rel="stylesheet">
     <!-- medium/tablet views -->
-    <link href="styles/large-5.css" rel="stylesheet">
+
+    <link href="styles/large-6.css" rel="stylesheet">
     <!-- large/wide/desktop views -->
 </head>
 
@@ -35,7 +40,8 @@
     <!-- site navigation use placeholder references -->
 
     <nav>
-        <button onclick="toggleNavMenu()">&#9776;</button>
+       
+        <button>&#9776;</button>
         <ul>
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Franklin</a></li>
@@ -45,11 +51,15 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
+    <nav class="clearfix"></nav>
 
     <main>
         <h2>The City of Franklin</h2>
-        <figure>
-            <img src="images/summer%20cabin.jpg" width="250" height="200" alt="summer cabin">
+        <figure class="myphoto">
+            <img src="images/franklin-original.jpeg" alt="franklin-org" sizes="50vw"
+                 srcset="images/franklin-small.jpeg 200w,
+                         images/franklin-medium.jpeg 500w,
+                         images/franklin-large.jpeg 800w">
         </figure>
 
         <section>
@@ -109,7 +119,7 @@
         <article>
             <h3>Franklin Breaks Record</h3>
             <div class="town-article">
-                <img src="images/hotair.jpeg" alt="hotair" width="200" height="200">
+                <img src="images/balloon%20race.jpg" alt="balloon race" width="200" height="200">
                 <p>
                     slkfjafjkfjsf ajfsdfjlaksfj dsjlfkjalkfjaldkfjlsdkfjsaldkfjlkf aakfjslkdfjlaskjflkdjflkajflskjflkjdflsakdjflsakjfajfdlksjfdlka a;dkfjadkfjaslkfjsalkfjlaskjdflakjflsjdflsjflkjldkfjlkfj.
                 </p>
@@ -122,7 +132,7 @@
         <aside>
             Contact information placeholder
         </aside>
-        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | The Mu Tri-Cities Weather Site | <span id="currentdate">currentdate.js</span></p>
     </footer>
 
     <script src="scripts/hamburger.js"></script>

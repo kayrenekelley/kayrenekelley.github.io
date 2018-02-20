@@ -37,7 +37,7 @@
   }
 
   header img {
-      width: 200px;
+      width: 150px;
       height: auto;
       float: none;
   }
@@ -46,9 +46,24 @@
       margin-left: 30px;
   }
 
-  nav {}
+  nav {
+      background-color: darkblue;
+      
+/*----- Clearfix: Force an Element not to Collapse -----*/
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+}
 
-  nav button {}
+  nav button {
+      margin: .2rem 2%;
+      background-color: transparent;
+      border: none;
+      font-size: 1.6rem;
+      color: aqua
+}
 
   nav ul {
       list-style-type: none;
@@ -63,16 +78,18 @@
 
   nav ul li a {
       display: block;
+      padding: .8rem 2%;
+      text-decoration: none;
       color: black;
-      padding: 8px 16px;
+      border-top: 1px solid rgba(0,0,0,3);
   }
 
   nav ul li.active a {
-      background-color: blue;
+      background-color: rgba(0,0,0,4); color: #fff;
       color: wheat;
   }
 
-  nav ul li a:hover {
+  nav ul li a:hover {background-color: rgba(0,0,0,4);
       background-color: whitesmoke;
       color: navy;
   }
@@ -81,12 +98,13 @@
 
   main h2 {}
 
-  main figure {
+ main figure {
+      
       margin: 0 0 .2rem 2%;
       width: 96%;
   }
 
-  main figure img {
+ .myphoto main figure img  {
       width: 75%;
       height: 250px;
   }
@@ -129,7 +147,8 @@
   .town-article {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
+      margin: .75rem;
   }
 
   footer {}

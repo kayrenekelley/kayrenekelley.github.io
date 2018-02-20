@@ -10,9 +10,16 @@
     nav button {
         display: none;
     }
+    nav ul { margin-left: 2%;}
+ 
     /* hamburger button does not need to be shown */
     nav ul li {
         float: left;
+    }
+       nav ul li a {
+           border: none;
+           border-right: 1px solid rgba(0,0,0,3);
+           padding: .8rem 1rem;
     }
     main {
         clear: both;
