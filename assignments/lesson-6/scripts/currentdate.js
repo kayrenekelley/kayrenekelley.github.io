@@ -1,11 +1,12 @@
-<html>
-<body>
-<p id="demo"></p>
+//<html>
+//<body>
+//<p id="demo"></p>
 
 
-function currentDate(){
+function currentDate() {
     var d = new Date();
     var weekday = new Array(7);
+    var n = weekday[d.getDay()];
     weekday[0] = "Sunday";
     weekday[1] = "Monday";
     weekday[2] = "Tuesday";
@@ -14,9 +15,9 @@ function currentDate(){
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
     
-    var n = weekday[d.getDay()];
+    
     document.getElementById("demo").innerHTML = n;
 }
-
-</body>
-</html>
+//</p>
+//</body>
+//</html>

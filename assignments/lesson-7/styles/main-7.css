@@ -1,0 +1,176 @@
+  /* This main css file contains the default rules and is geared toward the small/phone view */
+
+  * {
+      box-sizing: border-box;
+  }
+
+  /* This wildcard applies to all elements ensuring a box layout model */
+
+  body {
+      font-size: 16px;
+      line-height: normal;
+      font-family: calibri, sans-serif;
+      color: black;
+      /* Declare the base font-family - from google font api or other */
+  }
+
+  header,
+  nav,
+  main,
+  footer {
+      margin: 1.25rem auto;
+      padding: .75rem;
+      max-width: 960px;
+      /* the comma means apply the following CSS declarations to all of the listed elements */
+      /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+  }
+
+  header {
+      display: flex;
+      flex-direction: row;
+      
+       .hamburger { 
+      display: block;position: absolute;top: 2.0rem;right: 1.25rem;}
+  }
+
+  header h1 {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 30px;
+  }
+
+  header img {
+      width: 150px;
+      height: auto;
+      float: none;
+  }
+
+  header .subheading {
+      margin-left: 30px;
+  }
+
+  nav {
+      background-color: darkblue;
+
+      /*----- Clearfix: Force an Element not to Collapse 
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;-----*/
+       
+      
+      .navigation {
+          list-style: none; padding-left: 0;}
+  }
+
+  }
+
+  nav button {
+      margin: .2rem 2%;
+      background-color: transparent;
+      border: none;
+      font-size: 1.6rem;
+      color: aqua
+  }
+
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10;
+      width: 100%;
+      background-color: lightblue;
+      text-decoration: none;
+  }
+
+  nav ul li {}
+
+  nav ul li a {
+      display: block;
+      padding: .8rem 2%;
+      text-decoration: none;
+      color: black;
+      border-top: 1px solid rgba(0, 0, 0, 3);
+  }
+
+  nav ul li.active a {
+      background-color: rgba(0, 0, 0, 4);
+      color: #fff;
+      color: wheat;
+  }
+
+  nav ul li a:hover {
+      background-color: rgba(0, 0, 0, 4);
+      background-color: whitesmoke;
+      color: navy;
+  }
+
+  main {}
+
+  main h2 {}
+
+  main figure {
+
+      margin: 0 0 .2rem 2%;
+      width: 96%;
+  }
+
+  main.figure {
+      width: 75%;
+      height: 250px;
+  }
+
+  section.forecast {
+      display: none;
+  }
+
+  .current {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .current p {
+      margin-top: 50px;
+      font-size: 30px;
+  }
+
+  .highlow {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .conditions {
+      display: flex;
+      justify-content: space-around;
+
+  }
+
+  article div.town-article img {
+      /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+      width: 75%;
+      height: 250px;
+      /* fill the page in the small/phone view */
+      margin: 0px;
+
+  }
+
+  .town-article {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: .75rem;
+  }
+
+  footer {
+      
+    
+      
+}
+
+  footer aside {}
+
+  footer > p {}
+
+  /* This structure refers to p elements that are direct children of the footer element */
+
+  /* Other Class Selectors */

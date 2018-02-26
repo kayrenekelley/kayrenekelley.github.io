@@ -49,11 +49,11 @@
   nav {
       background-color: darkblue;
       
-/*----- Clearfix: Force an Element not to Collapse -----*/
+/*----- Clearfix: Force an Element not to Collapse 
       .clearfix:after {
           content: "";
           display: table;
-          clear: both;
+          clear: both;-----*/
       }
 }
 
