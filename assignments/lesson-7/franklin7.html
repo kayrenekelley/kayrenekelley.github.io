@@ -32,20 +32,20 @@
             <img src="images/sunflower-1.jpg" alt="sunflower">
         </div>
         <div>
-            <h1>Mu Tri-City's Weather Site</h1>
+            <h1>MU Tri-City's Weather Site</h1>
             <div class="subheading">The only hometown weather site you will ever need.</div>
         </div>
     </header>
-      <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
 
     <!-- site navigation use placeholder references -->
 
     <nav>
 
-      
-        
+
+
         <ul class="navigation">
-            <li><a href="active" title="Home" >Home</a></li>
+            <li><a href="active" title="Home">Home</a></li>
             <li class="active"><a href="#" title="Franklin">Franklin</a></li>
             <li><a href="#" title="Greenville">Greenville</a></li>
             <li><a href="#" title="Springfield">Springfield</a></li>
@@ -53,14 +53,16 @@
             <li><a href="#" title="Gallery">Gallery</a></li>
         </ul>
     </nav>
-    <nav class="clearfix"></nav>
+    <!--<nav class="clearfix"></nav> -->
 
     <main>
         <h2>The City of Franklin</h2>
         <div class="figure">
             <picture>
-
-                <img srcset=" images/franklin-original.jpeg 50vw" images/franklin-sm.jpeg 200w, images/franklin-md.jpeg 500w, images/franklin-lg.jpeg 800w, src>
+                <source media="(min-width 600px)" srcset="images/franklin-sm.jpg">
+                <source media="(min-width 1024px)" srcset="images/franklin-md.jpg">
+                <source media="(min-width 1024px)" srcset="images/franklin-lg.jpg">
+                <img src="images/franklin-original.jpeg" alt=" franklin country view" style="width: 600px">
             </picture>
         </div>
 
@@ -138,12 +140,12 @@
         </aside>
         <p class="footer-bar">&copy;2017 All Rights Reserved | The Mu Tri-Cities Weather Site | <span id="currentdate">currentdate.js</span></p>
     </footer>
-    <div class="hamburger"></div>
+    <!--<div class="hamburger"></div>
     <div class="navigation"></div>
-    <div class="responsive"></div>
+    <div class="responsive"></div> -->
 
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/currentdate.js"></script>
+    <!-- <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script> -->
 
 </body>
 
