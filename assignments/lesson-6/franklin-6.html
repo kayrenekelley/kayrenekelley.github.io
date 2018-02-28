@@ -40,7 +40,7 @@
     <!-- site navigation use placeholder references -->
 
     <nav>
-       
+
         <button>&#9776;</button>
         <ul>
             <li><a href="#">Home</a></li>
@@ -56,11 +56,12 @@
     <main>
         <h2>The City of Franklin</h2>
         <figure class="myphoto">
-            <img src="images/franklin-original.jpeg" alt="franklin-sm" sizes="200w"
-                 srcset="imaes/franklin-sm.jpg, 200w,
-                         images/franklin-md.jpg 500w,
-                         images/franklin-lg.jpg 800w">
-        
+
+            <source media="(min-width 600px)" srcset="images/franklin-sm.jpg">
+            <source media="(min-width 1024px)" srcset="images/franklin-md.jpg">
+            <source media="(min-width 1024px)" srcset="images/franklin-lg.jpg">
+            <img src="images/franklin-original.jpeg" alt=" franklin country view" style="width: 600px">
+
         </figure>
 
         <section>
@@ -120,9 +121,11 @@
         <article>
             <h3>Franklin Breaks Record</h3>
             <div class="town-article">
+                <h3>Good Weather for Local Rodeo</h3>
                 <img src="images/rodeo.jpg" alt="rodeo">
                 <p>
-                    slkfjafjkfjsf ajfsdfjlaksfj dsjlfkjalkfjaldkfjlsdkfjsaldkfjlkf aakfjslkdfjlaskjflkdjflkajflskjflkjdflsakdjflsakjfajfdlksjfdlka a;dkfjadkfjaslkfjsalkfjlaskjdflakjflsjdflsjflkjldkfjlkfj.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis id nibh vitae efficitur. Sed sed dictum velit. Sed vitae commodo ipsum. Mauris fermentum velit tortor, nec iaculis ipsum lacinia quis. Aenean sed turpis sed augue sodales aliquet vitae ut velit. Donec a lacus eget felis efficitur auctor. Proin commodo et est sit amet porttitor. Curabitur vitae dictum erat. Duis quis pulvinar odio, a porta nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent et ligula sit amet lectus imperdiet mattis. Morbi sit amet mauris ut tortor sollicitudin bibendum. Phasellus consectetur viverra scelerisque. Nunc consequat dignissim mi ac pulvinar. Praesent efficitur tortor nunc. Ut sodales condimentum odio, vitae condimentum sapien laoreet semper. Nunc lacus mauris, elementum sit amet lobortis vitae, feugiat placerat augue. Nulla arcu leo, blandit ut enim quis, fringilla ullamcorper dolor. Fusce aliquam pharetra lacus id fermentum.
                 </p>
             </div>
         </article>
@@ -131,7 +134,10 @@
 
     <footer>
         <aside>
-            Contact information placeholder
+            <p> Mu Tri-City's Weather Site</p>
+            <p>123 Main St. Franklin, MU 83454</p>
+            <p>999-999-9999 </p>
+            <p>mutriweather@station.com</p>S
         </aside>
         <p class="footer-bar">&copy;2017 All Rights Reserved | The Mu Tri-Cities Weather Site | <span id="currentdate">currentdate.js</span></p>
     </footer>
