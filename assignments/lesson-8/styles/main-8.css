@@ -28,7 +28,7 @@
   header {
       display: flex;
       flex-direction: row;
-      
+
       /* .hamburger { 
       display: block;position: absolute;top: 2.0rem;right: 1.25rem;}*/
   }
@@ -57,8 +57,6 @@
           content: "";
           display: table;
           clear: both;-----*/
-       
-      
       /*----.navigation {
           list-style: none; padding-left: 0;}----*/
   }
@@ -161,53 +159,49 @@
       margin: .75rem;
   }
 
-form#weather{
-    margin: 30px 3%;        
-}
+  form#weather {
+      margin: 30px 3%;
+  }
 
-fieldset {
-    background-color: #e6ffff;
-border-radius: .3em;
-    margin: 1.5em 0;
-    border: #008080 solid 1px;
-    
-}
+  fieldset {
+      background-color: #e6ffff;
+      border-radius: .3em;
+      margin: 1.5em 0;
+      border: #008080 solid 1px;
 
-legend {
-    color: black;
-    margin-left: 6%;
-    background-color: #75a3a3;
-    border-radius: .4em;
-}
+  }
 
-label {
-    display: block;
-    margin: .3em;
-}
+  legend {
+      color: black;
+      margin-left: 6%;
+      background-color: #75a3a3;
+      border-radius: .4em;
+  }
 
-label span {
-    display: block;
-    font-size: 1.1em;
-    color: #006666;
-    padding-top: .5em;
-    padding-bottom: .2em;
-}
+  label {
+      display: block;
+      margin: .3em;
+  }
 
-.submitBtn {
-    color: #004d4d;
-    border: solid 2px #008080;
-    border-radius: 5px;
-    width: 5em 0;
-    font-size: 1.5em color: #006666;
-    padding: .5em;
-    
-}
+  label span {
+      display: block;
+      font-size: 1.1em;
+      color: #006666;
+      padding-top: .5em;
+      padding-bottom: .2em;
+  }
 
-  footer {
-      
-    
-      
-}
+  .submitBtn {
+      color: #004d4d;
+      border: solid 2px #008080;
+      border-radius: 5px;
+      width: 5em 0;
+      font-size: 1.5em color: #006666;
+      padding: .5em;
+
+  }
+
+  footer {}
 
   footer aside {}
 

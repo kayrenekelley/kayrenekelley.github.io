@@ -1,10 +1,17 @@
 @media only screen and (min-width: 64em) {
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    /*div#wrapper {
+     max-width: 150rem;
+        margin: 2rem auto;
+        box-shadow: 0 0 10px #000000;*/
+    }
     header,
     nav,
     main,
     footer {
-        max-width: 800px
+        
+        max-width: 960px;
+        
     }
 
     nav button {
