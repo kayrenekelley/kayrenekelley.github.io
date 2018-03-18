@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    div#wrapper{
+        max-width: 960px;
+        margin: .5rem auto;
+        box-shadow: 0 0 10px #000000;
+    }
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 960px
+    }
+
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+    nav ul li {
+        float: left;
+    }
+    main {
+        clear: both;
+    }
+
+    article div.town-article img {
+        width: 29.333%;
+    }
+
+}

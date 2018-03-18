@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eagle Eye Weather</title>
+    <meta name="author" content="Kayrene Kelley">
+    <meta name="description" content="Eagle Eye weather. Complete up to date weather and articles for Franklin, Greenville, and Springfield. Best storm center in the state of MU. Includes a photo and article gallery">
+    <!-- external style references in the proper cascading order -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+
+    <link href="styles/maintwn.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+
+    <link href="styles/mediumtwn.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+
+    <link href="styles/largetwn.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+    <div id="wrapper"></div>
+    <header>
+        <div>
+            <img src="images/eagle%20eye.jpg" alt="eagle eye">
+        </div>
+        <div>
+            <h1>Eagle Eye Weather</h1>
+            <div class="subheading">Keeping an Eye on the Tri-Cities weather.</div>
+        </div>
+    </header>
+
+    <!-- site navigation use placeholder references -->
+
+    <nav>
+
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <nav class="clearfix"></nav>
+
+    <main>
+        <h2>The City of Franklin</h2>
+        <figure class="myphoto">
+
+           <!--- <source media="(min-width 600px)" srcset="images/franklin-sm.jpg">
+            <source media="(min-width 1024px)" srcset="images/franklin-md.jpg">
+            <source media="(min-width 1024px)" srcset="images/franklin-lg.jpg">--->
+            <img src="images/summer-river.jpg" alt=" summer river" style="width: 500px">
+
+        </figure>
+
+        <section>
+            <h3>Weather Summary</h3>
+            <div class="current">
+                <p>Sunny</p>
+                <picture>
+                    <img src="images/sunny200px.png" alt="sunny">
+                </picture>
+            </div>
+
+            <div class="highlow">
+                <p>High: 90&#8457;</p>
+                <p>Low: 66&#8457;</p>
+            </div>
+
+            <div class="conditions">
+                <p>Precipitation: 0%</p>
+                <p>Wind Speed: 5 mpg SW</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Great Weather for Local Rodeo</h3>
+            <div class="town-article">
+                <img src="images/rodeo-horse-white-horse-action-shot.jpg" alt="rodeo">
+                <p>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis id nibh vitae efficitur. Sed sed dictum velit. Sed vitae commodo ipsum. Mauris fermentum velit tortor, nec iaculis ipsum lacinia quis. Aenean sed turpis sed augue sodales aliquet vitae ut velit. Donec a lacus eget felis efficitur auctor. Proin commodo et est sit amet porttitor. Curabitur vitae dictum erat. Duis quis pulvinar odio, a porta nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent et ligula sit amet lectus imperdiet mattis. Morbi sit amet mauris ut tortor sollicitudin bibendum. Phasellus consectetur viverra scelerisque. Nunc consequat dignissim mi ac pulvinar. Praesent efficitur tortor nunc. Ut sodales condimentum odio, vitae condimentum sapien laoreet semper. Nunc lacus mauris, elementum sit amet lobortis vitae, feugiat placerat augue. Nulla arcu leo, blandit ut enim quis, fringilla ullamcorper dolor. Fusce aliquam pharetra lacus id fermentum.
+                </p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <aside>
+            <p> Eagle Eye Weather Site</p>
+            <p>123 Main St. Franklin, MU 83454</p>
+            <p>999-999-9999 </p>
+            <p>mutriweather@station.com</p>
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Eagle Eye Weather Site | <span id="currentdate"></span></p>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+</body>
+
+</html>
