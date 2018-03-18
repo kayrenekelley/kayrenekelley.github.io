@@ -13,7 +13,7 @@
     }
 
     nav button {
-        display: none;
+        display: none; /*hamburger button*/
     }
     nav ul {
         margin-left: 2%;
@@ -29,12 +29,12 @@
         padding: .8rem 1rem;
     }
     main {
-        clear: both;
+       /* clear: both;*/
 
     }
     .flex-container {
         display: flex;
-        align-content: center;
+        /*align-content: center;*/
         flex-direction: row;
         flex-wrap: wrap
     }
@@ -124,3 +124,25 @@
         height: 450px;
     }
     /* responsive images */
+  footer {
+      background-color: #006666;
+}
+
+.flex-item{
+      background-color: #e6ffff;
+    width: 97%;
+      align-content: center;
+      padding-left: 11em
+          
+    
+    }
+.flex-item-1{
+    align-content: flex-start;
+    margin: 0;
+    border: #e6ffff;
+    padding-left: 15em;
+    padding-right: 14em;
+    display: flex;
+    align-content: center;
+    
+}

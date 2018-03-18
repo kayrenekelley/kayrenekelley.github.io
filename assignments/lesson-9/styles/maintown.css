@@ -1,9 +1,10 @@
   /* This main css file contains the default rules and is geared toward the small/phone view */
+
   div#wrapper {
-        max-width: 600px;
-        margin: .5rem auto;
-        box-shadow: 0 0 10px #000000;
-    }
+      max-width: 600px;
+      margin: .5rem auto;
+      box-shadow: 0 0 10px #000000;
+  }
 
   * {
       box-sizing: border-box;
@@ -109,53 +110,70 @@
 
   main {}
 
+  section p {
+      font-style: italic;
+  }
+
   .flex-container {
       display: flex;
       align-content: center;
       flex-direction: column;
-
   }
 
   .flex-item-1 {
-      padding-left: 10em; /*weather story*/
+      padding-left: 10em;
+      /*weather story*/
   }
 
-
-
   .flex-item-3 {
-      padding-left: 8em; /*street with blossoms*/
+      padding-left: 8em;
+      /*street with blossoms*/
   }
 
   .flex-item-4 {
-      padding-left: 10.5em; /*franklin city*/
+      padding-left: 10.5em;
+      /*franklin city*/
   }
 
   .flex-item-5 {
-      padding-left: 13em; /*motto ...*/
+      padding-left: 13em;
+      /*motto ...*/
   }
 
   .flex-item-6 {
-      padding-left: 8em; /*franklin pic*/
+      padding-left: 8em;
+      /*franklin pic*/
   }
 
   .flex-item-7 {
-      padding-left: 11.5em; /*greenville*/
+      padding-left: 11.5em;
+      /*greenville*/
   }
-.flex-item-8{
-   padding-left: 13em; /* motto ...*/ 
-}
-.flex-item-9{
-    padding-left: 7em; /*greenville pic*/
-}
-.flex-item-10{
-    padding-left: 11em; /*springfield*/
-}
-.flex-item-11{
-    padding-left: 13em; /*motto ...*/
-}
-.flex-item-12{
-    padding-left: 7em; /*springfield pic*/
-}
+
+  .flex-item-8 {
+      padding-left: 13em;
+      /* motto ...*/
+  }
+
+  .flex-item-9 {
+      padding-left: 7em;
+      /*greenville pic*/
+  }
+
+  .flex-item-10 {
+      padding-left: 11em;
+      /*springfield*/
+  }
+
+  .flex-item-11 {
+      padding-left: 13em;
+      /*motto ...*/
+  }
+
+  .flex-item-12 {
+      padding-left: 7em;
+      /*springfield pic*/
+  }
 
   main h1 {}
 
@@ -281,27 +299,10 @@
 
   footer {
       background-color: #006666;
-}
-.flex-container{
-    margin: 2%;
-}
+  }
 
   footer aside {
       background-color: #e6ffff;
       align-content: center;
       padding-left: 9em;
-}
-.flex-item-1{
-    align-content: flex-start;
-    margin: 0;
-    border: #e6ffff;
-    padding-left: 0;
-    
-}
-
-
-  footer > p {}
-
-  /* This structure refers to p elements that are direct children of the footer element */
-
-  /* Other Class Selectors */
+  }

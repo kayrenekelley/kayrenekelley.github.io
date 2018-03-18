@@ -10,6 +10,10 @@
     nav button {
         display: none;
     }
+    
+    .navigation {
+        display: block;
+    }
     nav ul { margin-left: 2%;}
  
     /* hamburger button does not need to be shown */
