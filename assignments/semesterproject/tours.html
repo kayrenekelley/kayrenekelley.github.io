@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+    <meta name="author" content="Kayrene Kelley">
+    <meta name="description" content="The Mountain Spoke. Bycycle shop in Bozeman Montana that specializes in mountain biking in the mountains around the Bozeman area. Tours are offered to see the mountains, nicknamed the Crazy Mountians. The Mounian Spoke is a full service bicycle shop with sales, service, maintence, and repairs.">
+    <!-- external style references in the proper cascading order -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+    <link href="styles-smp/normalize.css" rel="stylesheet">
+    <!-- normalize -->
+
+    <link href="styles-smp/main.css" rel="stylesheet">
+    <!-- small/phone -->
+
+    <link href="styles-smp/medium.css" rel="stylesheet">
+    <!-- medium/tablet -->
+
+    <link href="styles-smp/large.css" rel="stylesheet">
+    <!-- large/wide/desktop -->
+</head>
+
+<body>
+    <div id="wrapper"></div>
+    <header>
+        <div>
+            <img src="images-smp/gear-mechanics-settings-icon-hd-png-66768.png">
+        </div>
+        <div>
+            <h1>The Mountian Spoke</h1>
+            <div class="motto">Cycle the "Crazy Mountains"</div>
+        </div>
+    </header>
+
+    <nav>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Sales</a></li>
+            <li class=""><a href="#">Service/Repairs</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </nav>
+   
+        <main>
+            <div>
+            <picture class="tours">
+                <img style="max-width:95%;border:6px ridge #545565;" src="images-smp/mountian-tours-250-x-200.jpg" alt="bicycle tours" />
+            </picture>
+        </div> 
+            
+           <h2>Sign up here for tours</h2>
+        
+        <div class="row">
+        </div>
+        <div class="left">
+        </div>
+        <form action="" method="post" enctype="multipart/form-data" name="weather" id="report">
+            <fieldset>
+                <legend><span>Personal Information</span></legend>
+                <label><span>Full Name:</span><input name="fullname"type="text" value=""placeholder="Full Name"pattern="[a-zA-z-._]{5.99}"required></label>
+                <label><span>Email:</span><input name="email" type="email" value="" placeholder="zen@gmail.com" pattern="" required></label>
+                <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1234567899" pattern="[0-9]{10,20} required" ></label>
+                <label><span>Zip Code:</span><input name="zip" type="number" value="" pattern="[0-9]{}"></label>
+                 <label><span>Number of participants:</span><input name="participants" type="number" value="" placeholder="" pattern="[0-9]{10,20} required" ></label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Tour or Event</span></legend>
+                <label><span>Desired Date:</span><input name="date" type="date"></label>
+                <label><span>Tour:</span><input type="text" name="tourType" list="tours"></label>
+                <datalist id="tours">
+                        <option value="Bridger Tour"></option>
+                        <option value="Lake Tour"></option>
+                        <option value="Private Beginner Tour"></option>
+                        <option value="Private Intermediate Tour"></option>
+                        <option value="Private Advanced Tour"></option>
+                       
+                    </datalist>
+                <p>Group Tours $10 per person</p>
+                <p>Private Beginner $20 per hour</p>
+                <p>Private Intermediate $30 per hour</p>
+                <p>Private Advanced $40 per hour</p>
+                
+                
+                <label><span>Need to rent a bike?</span></label>
+                <form>
+                    <input type="radio" value="Yes">Yes
+                    <input type="radio" value="No">No
+                    <input type="radio" value="Maybe">Maybe
+                </form>
+                <p>Bike rentals $10</p>
+            </fieldset>
+            
+            <input type="submit" value="Submit" class="submitBtn">
+            <input name="redirect" type="hidden" value="thanks.html">
+
+
+
+
+        </form>
+        <!---</article>--->
+
+    </main>
+
+      <footer>
+       
+        <aside>
+            <p> The Mountian Spoke</p>
+            <p>3950 Valley Commons Drive</p>
+            <p> Bozeman, Mt 83454</p>
+            <p>999-999-9999 </p>
+            <p>mountianspoke@bigbusiness.com</p>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke Site</p>
+
+
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+
+
+</body>
+
+</html>
